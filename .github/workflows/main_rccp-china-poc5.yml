@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'RCCP-China-POC5'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54AD93CE60EC4A84A4267F45130B6301 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_572E0CC3AA6847FDADE4A3EA921AA54E }}
