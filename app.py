@@ -89,4 +89,4 @@ def name_to_figure(fig_name):
 	print("train finish")
 	return dcc.Graph(figure=figure)
 
-app.run_server(debug=True, use_reloader=False, port=8080)
+app.run_server(debug=True, use_reloader=False)
