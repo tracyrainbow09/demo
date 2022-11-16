@@ -12,7 +12,6 @@ import pandas as pd
 import numpy as np
 
 import example_figures as example
-import roc_fig
 
 from synth import Synth
 from roc import Roc
@@ -24,7 +23,7 @@ from roc import Roc
 
 
 figs = {
-	'ROC Curves': roc_fig.fig,
+	'ROC Curves': '',
 	'Example Scatter': example.scatter,
 	'Example Histogram': example.histogram
 }
